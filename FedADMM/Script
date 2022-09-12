@@ -1,0 +1,1 @@
+python3 ./Fed_main.py --epochs 200 --freq_in 300 --freq_out 1 --num_users 10 --par_users 30 --local_ep 300 --local_bs 2 --lr 0.01 --mu 1 --dataset femnist --VR False --model cnn --optimizer FedADMM
