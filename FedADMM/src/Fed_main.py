@@ -109,8 +109,11 @@ for epoch in tqdm(range(args.epochs)):
         print('Train Accuracy: {:.2f}% \n'.format(100*train_accuracy[-1]), flush=True)
 
 # Save results to a csv file
-filename = args.optimizer + '_' + args.dataset + '_' + 'lr_' + str(args.lr) + '_' +\
-           str(args.par_users) + 'of' + str(args.num_users) + 'orig'
+filename = args.optimizer + '_' + args.dataset + '_' + 'lr_' + str(args.lr) + '_' + \
+           str(args.par_users) + 'of' + str(args.num_users)
+if args.dataset == 'synthetic':
+    filename = args.optimizer + '_' + args.dataset + '_' + args.syn_alpha_beta + '_' + 'lr_' + str(args.lr) + '_' + \
+               str(args.par_users) + 'of' + str(args.num_users)
 
 with open(filename+'.csv', 'w') as f:
     write = csv.writer(f)
