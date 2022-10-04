@@ -1,5 +1,6 @@
 # Federated
 
-FedADMM_clean and FedDR_clean runs FedADMM and FedDR with partial participation on Femnist dataset
+This is the repo that could be used to generate the results in the paper 
+"FedADMM: A Federated Primal-Dual Algorithm Allowing Partial Participation"
+URL: https://arxiv.org/abs/2203.15104
 
-FedADMM_synthetic and FedDR_synthetic runs FedADMM and FedDR with partial participation on synthetic dataset(Specify the alpha and beta values to be used for synthetic dataset)
