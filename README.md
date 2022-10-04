@@ -1,4 +1,4 @@
-# Federated
+# FedADMM
 
 This is the repo that could be used to generate the results in the paper 
 "FedADMM: A Federated Primal-Dual Algorithm Allowing Partial Participation"
