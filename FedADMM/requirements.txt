@@ -14,7 +14,7 @@ mkl-service==2.4.0
 munkres==1.1.4
 numpy @ file:///opt/conda/conda-bld/numpy_and_numpy_base_1652801679809/work
 packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
-Pillow==9.0.1
+Pillow==9.2.0
 pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
 pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
